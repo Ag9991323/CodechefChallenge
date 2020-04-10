@@ -16,7 +16,6 @@ class HardCash{
             for(int i=0;i<n;i++){
                 b=b.add(BigInteger.valueOf(array[i]).mod(BigInteger.valueOf(K)));
                 
-                
             } 
             for(int i=n-1;i>=0 && (b.compareTo(BigInteger.valueOf(K))==1||b.compareTo(BigInteger.valueOf(K))==0);i--){
                 b=b.subtract(BigInteger.valueOf(K));
