@@ -10,49 +10,54 @@ class subsequence {
         int t = Integer.parseInt(br.readLine());
         while(t-- >0){
             int N =Integer.parseInt(br.readLine());
-            int arr[] = new int[N];
-            StringTokenizer token = new StringTokenizer(br.readLine());
-            for(int i=0;i<N;i++)
-                arr[i]=(Integer.parseInt(token.nextToken()))%4;
-           long sum= (N*(N+1))/2;
-           int previousnum=0;
-          
+            long arr[] = new long[N];
+            //StringTokenizer token = new StringTokenizer(br.readLine());
+            for(int i=0;i<N;i++){
+                arr[i]=4;
+            }
+          long sum= (N*(N+1))/2;
+          long previousnum=0;
+         
          
             for(int i=0;i<N;i++){
-               long temp=arr[i]%4;
+              BigInteger temp=BigInteger.valueOf(arr[i]);
               boolean ischange =false;
-              int currentnum=0;
+              long currentnum=0;
               if(i>0&&(arr[i-1]&1)==1){
+                
                   sum-=previousnum;
                   continue;
               }
-              else  previousnum=0;
-              
+              else{
+                  previousnum=0;
+              }
               
               int j=i+1;
            
-                while(temp%4!=0){
-               
-                     if(temp%4==2){
-                        sum--;
-                        ischange=true;
-                    }
-                    if(ischange)
-                        currentnum++;
-                    
-                    
-                    if(j<N){
-                        temp=temp*arr[j++];
-                        temp=temp%4;
-                    }
+                while(temp.mod(BigInteger.valueOf(4))!=BigInteger.valueOf(0)){
                      
-                    else break;
-                   
-                }
+
+                    if(temp.mod(BigInteger.valueOf(4)).equals(BigInteger.valueOf(2))){
+                        sum--;
+                       ischange=true;
+                    }
+                    if(ischange){
+                        currentnum++;
+                    }
+                    if(j<N){
+                        temp= temp.multiply(BigInteger.valueOf(arr[j++]));
+                        temp=temp.mod(BigInteger.valueOf(4));
+                        if(temp.compareTo(BigInteger.valueOf(0))==-1){
+                            temp=temp.add(BigInteger.valueOf(4));
+                        }
+                    }
+                    else{
+                        break;
+                    }
+                 }
 
                  if(ischange){
                      previousnum=currentnum;
-                   
                 }
 
             }
