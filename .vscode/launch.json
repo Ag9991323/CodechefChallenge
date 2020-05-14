@@ -1,0 +1,125 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MostUnstable",
+            "request": "launch",
+            "mainClass": "MostUnstable",
+            "projectName": "CodechefChallenge_c32c4c35"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "CodechefChallenge_c32c4c35"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CarSell<CodechefChallenge_c32c4c35>",
+            "request": "launch",
+            "mainClass": "April.CarSell",
+            "projectName": "CodechefChallenge_c32c4c35"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Covid<CodechefChallenge_c32c4c35>",
+            "request": "launch",
+            "mainClass": "April.Covid",
+            "projectName": "CodechefChallenge_c32c4c35"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StrangeNumber<CodechefChallenge_c32c4c35>",
+            "request": "launch",
+            "mainClass": "April.StrangeNumber",
+            "projectName": "CodechefChallenge_c32c4c35"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UnitGcd<CodechefChallenge_c32c4c35>",
+            "request": "launch",
+            "mainClass": "April.UnitGcd",
+            "projectName": "CodechefChallenge_c32c4c35"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-subsequence<CodechefChallenge_c32c4c35>",
+            "request": "launch",
+            "mainClass": "April.subsequence",
+            "projectName": "CodechefChallenge_c32c4c35"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HardCash<CodechefChallenge_c32c4c35>",
+            "request": "launch",
+            "mainClass": "HardCash",
+            "projectName": "CodechefChallenge_c32c4c35"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Coronavirus<CodechefChallenge_c32c4c35>",
+            "request": "launch",
+            "mainClass": "May.Coronavirus",
+            "projectName": "CodechefChallenge_c32c4c35"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<CodechefChallenge_c32c4c35>",
+            "request": "launch",
+            "mainClass": "May.Main",
+            "projectName": "CodechefChallenge_c32c4c35"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TripleSort<CodechefChallenge_c32c4c35>",
+            "request": "launch",
+            "mainClass": "May.TripleSort",
+            "projectName": "CodechefChallenge_c32c4c35"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwoStr<CodechefChallenge_c32c4c35>",
+            "request": "launch",
+            "mainClass": "May.TwoStr",
+            "projectName": "CodechefChallenge_c32c4c35"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Nochange<CodechefChallenge_c32c4c35>",
+            "request": "launch",
+            "mainClass": "Nochange",
+            "projectName": "CodechefChallenge_c32c4c35"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SNUG_FIT<CodechefChallenge_c32c4c35>",
+            "request": "launch",
+            "mainClass": "SNUG_FIT",
+            "projectName": "CodechefChallenge_c32c4c35"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Theatre<CodechefChallenge_c32c4c35>",
+            "request": "launch",
+            "mainClass": "Theatre",
+            "projectName": "CodechefChallenge_c32c4c35"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Prime1",
+            "request": "launch",
+            "mainClass": "Prime1"
+        }
+    ]
+}
